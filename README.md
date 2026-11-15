@@ -5,8 +5,8 @@ WrapperTube is basically a Mix between Scratch, PenguinMod and YouTube (which ye
 1. Install Apache, MySQL, and PHP 7.4 on your server (you can try php 8, although it's not tested)
 2. Install ffmpeg and ImageMagick (used for thumbnail and video processing)
 3. Make a MySQL user and a MySQL database.
-4. Import the SQL file called "wrappertube.sql" on the database in the "get-started" folder.
-5. Add the .htaccess stuff in your server's httpd.conf (or whatever config file you're using)
+4. Import the SQL file called /get-started/wrappertube.sql
+5. Add the stuff in /get-started/httpdconf.txt in your server's httpd.conf (or whatever config file you're using)
 6. Change the files /s/classes/config.inc.php , /static/important/config.inc.php , /d/signup.php , and /email.php
 7. Create an admin user on the database, setting the user's status to "admin".
 8. Change each instance where it says "wrappertube.org" to your own domain. (this can be done with a single command btw)
