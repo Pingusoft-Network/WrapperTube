@@ -9,5 +9,5 @@ WrapperTube is basically a Mix between Scratch, PenguinMod and YouTube (which ye
 5. Add the .htaccess stuff in your server's httpd.conf (if using a vps, which is recommended since this hasn't been tested on shared hosting)
 6. Change the files /s/classes/config.inc.php , /static/important/config.inc.php , /d/signup.php , and /email.php
 7. Create an admin user on the database, setting the user's status to "admin".
-8. Change each instance where it says "wrappertube.org" to your own domain.
+8. Change each instance where it says "wrappertube.org" to your own domain. (this can be done with a single command btw)
 9. You got a basic WrapperTube setup. The admin panel is on the /funny-casablanka/ path, and the mod panel at the /vivat-shuravi/ path.
