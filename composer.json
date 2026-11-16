@@ -1,0 +1,12 @@
+{
+"config": {
+    "platform": {
+        "php": "7.4.21"
+     }
+},
+    "require": {
+        "s1syphos/php-simple-captcha": "^2.2",
+        "phpmailer/phpmailer": "^7.0",
+        "vanilla/nbbc": "^3.0"
+    }
+}

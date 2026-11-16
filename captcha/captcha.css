@@ -1,0 +1,38 @@
+.captcha {
+        /*! background-color: #F9F9F9;  */
+        /*! border: 1px solid #D3D3D3;  */
+        /*! -webkit-border-radius: 3px; */
+        /*!    -moz-border-radius: 3px; */
+        /*!         border-radius: 3px; */
+}
+.captcha .ka_challenge * {
+        /*! -webkit-border-radius: 5px; */
+        /*!    -moz-border-radius: 5px; */
+        /*!         border-radius: 5px; */
+}
+.captcha .ka_input {
+        width: 100%;
+        border: 1px solid #AAA;
+        padding: 0px 2px;
+}
+.captcha .ka_input:focus {
+        border: 1px solid #333;
+        -webkit-box-shadow: inset 0 0 1px;
+           -moz-box-shadow: inset 0 0 1px;
+                box-shadow: inset 0 0 1px;
+}
+.captcha a, .captcha a:visited {
+        color: #000080;
+}
+.captcha a:hover {
+        color: #F30;
+}
+.captcha .k_btns {
+        padding: 0 0.5em;
+}
+.captcha .k_btns a {
+        text-decoration: none;
+}
+.captcha .ka_q {
+        float: right;
+}

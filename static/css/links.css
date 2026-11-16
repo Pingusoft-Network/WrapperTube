@@ -1,0 +1,16 @@
+.music-editor-link {
+position: absolute;
+top: -420px;
+}
+
+.demo-video-container {
+width: 0px;
+height: 0px;
+overflow: hidden;
+}
+
+.about-a-link {
+font-size: 0px;
+color: transparent;
+line-height: 0;
+}

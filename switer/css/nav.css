@@ -1,0 +1,62 @@
+        body {
+        	margin: 0;
+        }
+        .boardlist {
+        	overflow: hidden;
+        	background-color: #2d2d2d;
+        	border-bottom: 1px solid #2d2d2d;
+        	font-size: 10pt;
+        	margin: 0;
+        	padding: 0;
+			width: 100%;
+	line-height: normal;
+        }
+
+        .boardlist a {
+        	float: left;
+        	display: block;
+        	text-align: center;
+        	padding: 4px 8px;
+        	text-decoration: none;
+        	color: #cccccc;
+        	font-family: arial, helvetica, sans-serif;
+			border-top: 2px solid #2d2d2d;
+        }
+
+        .boardlist .right {
+        	float: right;
+        	color: #eaeaea;
+        }
+
+        .boardlist .right:hover {
+        	background-color: #4c4c4c;
+        }
+
+        /* navlist link hover effect */
+        .boardlist a:hover {
+        	background-color: #4c4c4c;
+        	color: #fff;
+			border-top: 2px solid #dd4b39;
+
+        }
+
+        .navicon {
+        	width: 17px;
+        	height: 17px;
+        	float: left;
+        }
+
+
+        .retina {
+        	image-rendering: optimizeSpeed;
+        	image-rendering: -moz-crisp-edges;
+        	image-rendering: -o-crisp-edges;
+        	image-rendering: -webkit-optimize-contrast;
+        	image-rendering: pixelated;
+        	image-rendering: optimize-contrast;
+        	-ms-interpolation-mode: nearest-neighbor;
+        }
+
+.goog-te-gadget-icon {
+display: none;
+}

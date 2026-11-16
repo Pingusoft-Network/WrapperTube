@@ -1,0 +1,37 @@
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/static/important/config.inc.php"); ?>
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/static/lib/new/base.php"); ?>
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/static/lib/new/fetch.php"); ?>
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/static/lib/new/insert.php"); ?>
+<?php
+    $_user_fetch_utils = new user_fetch_utils();
+    $_video_fetch_utils = new video_fetch_utils();
+    $_user_insert_utils = new user_insert_utils();
+    $_base_utils = new config_setup();
+    
+    $_base_utils->initialize_db_var($conn);
+    $_video_fetch_utils->initialize_db_var($conn);
+    $_user_fetch_utils->initialize_db_var($conn);
+    $_user_insert_utils->initialize_db_var($conn);
+
+?>
+<?php
+$friend = $_user_fetch_utils->fetch_friend_id($_GET['id']);
+
+$name = $friend['reciever'];
+
+if($name != $_SESSION['siteusername'] || !isset($_GET['id'])) {
+    die("You are not logged in or you did not put in an argument");
+}
+
+if($friend['status'] != 'u') {
+    die("no");
+}
+
+$stmt = $conn->prepare("UPDATE friends SET status = 'a' WHERE id = ?");
+$stmt->bind_param("i", $_GET['id']);
+$stmt->execute();
+$stmt->close();
+
+$_user_insert_utils->send_message($friend['sender'], "New friend", 'I accepted your friend request!', $_SESSION['siteusername']);
+header('Location: /friends');
+?>

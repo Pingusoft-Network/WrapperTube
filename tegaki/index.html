@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tegaki - WrapperTube</title>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="content-script-type" content="text/javascript">
+        <meta http-equiv="content-style-type" content="text/css">
+        <meta name="theme-color" content="red">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="./tegaki.css">
+        <script type="text/javascript" language="JavaScript" src="./tegaki.min.js"></script>
+    </head>
+<body>
+<script type="text/javascript" language="JavaScript">
+  function onTegakiDone() {
+    var w = window.open('');
+    
+    Tegaki.flatten().toBlob(
+      function(b) { w.location = URL.createObjectURL(b); },
+      'image/png'
+    );
+  }
+  
+  Tegaki.open({
+    onDone: onTegakiDone,
+    width: 500,
+    height: 500
+  });
+</script>
+</body>
+</html>

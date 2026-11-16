@@ -1,0 +1,102 @@
+# NOTE: Replace /var/www/html/ to where your site is located.
+<Directory "/var/www/html/">
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^(www\.)?wrappertube\.org$ [NC]
+RewriteRule .* - [F,END]
+
+<FilesMatch "^composer\.(json|lock)$">
+    Require all denied
+</FilesMatch>
+<Files "email.php">
+    Require all denied
+</Files>
+
+php_value post_max_size 210M
+php_value upload_max_filesize 200M
+
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.htm
+
+RewriteRule ^user/(.*?)/videos/?$ channel_videos.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/discussion/?$ channel_discussion.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/feed/?$ channel_feed.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/featured/?$ channel.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/favorites/?$ channel_favorites.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/subscriptions/?$ channel_subscriptions.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/subscribers/?$ channel_subscribers.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/friends/?$ channel_friends.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/playlists/?$ channel_playlists.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/groups/?$ channel_groups.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/custom/?$ channel_custom.php?n=$1 [B,QSA,END]
+RewriteRule ^user/(.*?)/?$ channel.php?n=$1 [B,QSA,END]
+RewriteRule ^@(.*?)/?$ /user/$1 [BNP,R,END]
+RewriteRule ^group/([0-9]+)/playlists/?$ view_group_playlists.php?v=$1 [B,QSA,END]
+RewriteRule ^group/([0-9]+)/members/?$ view_group_members.php?v=$1 [B,QSA,END]
+RewriteRule ^group/([0-9]+)/admins/?$ view_group_admins.php?v=$1 [B,QSA,END]
+RewriteRule ^group/([0-9]+)/videos/?$ view_group_videos.php?v=$1 [B,QSA,END]
+RewriteRule ^group/([0-9]+)/?$ view_group.php?v=$1 [B,QSA,END]
+RewriteRule ^embed/(.*?)/?$ embed_2.php?v=$1 [B,QSA,END]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*?)/?$ $1.php [END]
+</Directory>
+
+<Directory "/var/www/html/d/">
+<Files "edit_video.php">
+php_value max_execution_time 5000
+php_value max_input_time 5000
+</Files>
+<Files "upload.php">
+php_value max_execution_time 5000
+php_value max_input_time 5000
+</Files>
+</Directory>
+
+<Directory "/var/www/html/vendor/">
+Require all denied
+</Directory>
+
+<Directory "/var/www/html/templates/">
+Require all denied
+</Directory>
+
+<Directory "/var/www/html/static/lib/">
+Require all denied
+</Directory>
+
+<Directory "/var/www/html/static/module/">
+Require all denied
+</Directory>
+
+<Directory "/var/www/html/static/important/">
+Require all denied
+</Directory>
+
+<Directory "/var/www/html/s/classes/">
+Require all denied
+</Directory>
+
+<Directory "/var/www/html/s/mod/">
+Require all denied
+</Directory>
+
+<Directory "/var/www/html/dynamic/temp/">
+Require all denied
+</Directory>
+
+<Directory "/var/www/html/scratch/">
+Redirect 302 /scratch/ /scratchtw/
+</Directory>
+
+<Directory "/var/www/html/dynamic/">
+SetHandler default-handler
+Options -ExecCGI -Includes
+php_flag engine off
+RemoveHandler .cgi .php .php3 .php4 .php5 .php7 .php8 .phtml .pcgi .pcgi3 .pcgi4 .pcgi5 .pcgi7 .pcgi8 .phar .phps .pl .py .pyc .pyo .jsp .asp .aspx .ashx .ash .shtml .shtm .sh
+RemoveType .cgi .php .php3 .php4 .php5 .php7 .php8 .phtml .pcgi .pcgi3 .pcgi4 .pcgi5 .pcgi7 .pcgi8 .phar .phps .pl .py .pyc .pyo .jsp .asp .aspx .ashx .ash .shtml .shtm .sh
+</Directory>

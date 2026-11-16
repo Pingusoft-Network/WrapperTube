@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://wrappertube.org/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/videos?feature=mh</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/videos</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/members</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/most_subscribed</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/popular_members</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/recently_logged_in</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/nones</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/directors</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/musicians</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/comedians</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/gurus</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/nonprofits</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/videos</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/recommended</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/featured</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/recent</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/popular</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/highest_rated</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/tags</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/autos</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/comedy</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/education</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/entertainment</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/film</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/gaming</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/howto</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/music</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/news</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/none</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/activism</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/people</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/pets</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/poop_posting</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/science</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/sports</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/travel</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratch2/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/snap/snap.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratch_editor</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchpm/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchpm/editor.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchpm/credits.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchpm/privacy.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchpm/contact.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchpm/playground.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchpm/terms.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchtw/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchtw/editor.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchtw/credits.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/scratchtw/privacy.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/chibi/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/chickenpaint/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/tegaki/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/klecks/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/klecks/help.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/paintbbs/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/paintbbs/shipainter</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/paint_editor</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/paint/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/paint/about.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/paint/privacy.html</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=None</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Film+%26+Animation</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Autos+%26+Vehicles</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Music</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Pets+%26+Animals</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Sports</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Travel+%26+Events</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Gaming</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=People+%26+Blogs</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Comedy</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Entertainment</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=News+%26+Politics</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Howto+%26+Style</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Education</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Science+%26+Technology</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Nonprofits+%26+Activism</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/community?c=Poop-posting</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/sign_in</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/sign_up</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/forgot_password</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/t/help</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/t/plugin_tutorial</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/t/about_wrappertube</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/t/community_guidelines</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/blog</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/switer/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/bbs/</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/ban_list</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/t/statistics</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/comments</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://wrappertube.org/t/donate</loc>
+  <lastmod>2026-11-07</lastmod>
+  <priority>0.5</priority>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>

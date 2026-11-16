@@ -1,0 +1,588 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+.markItUp .bold-button a	{
+	background-image:url(images/bold.png);
+}
+.markItUp .italic-button a	{
+	background-image:url(images/italic.png);
+}
+.markItUp .underline-button a	{
+	background-image:url(images/underline.png);
+}
+.markItUp .stroke-button a	{
+	background-image:url(images/stroke.png);
+}
+.markItUp .superscript-button a      {
+        background-image:url(images/superscript.png);
+}
+.markItUp .subscript-button a      {
+        background-image:url(images/subscript.png);
+}
+.markItUp .colour-button a	{
+	background-image:url(images/colour_swatch.png);
+}
+.markItUp .font-button a      {
+        background-image:url(images/FontHS.png);
+}
+.markItUp .glow-button a      {
+        background-image:url(images/glow.png);
+}
+.markItUp .rainbow-button a      {
+        background-image:url(images/rainbow.png);
+}
+.markItUp .highlight-button a      {
+        background-image:url(images/highlight.png);
+}
+.markItUp .colour-button ul{
+    width:81px;
+    padding:1px;
+}
+.markItUp .colour-button li{
+    border:1px solid white;
+    width:25px;
+    height:25px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    float:left;
+}
+.markItUp .colour-button ul a{
+    width:25px;
+    height:25px;
+}
+.markItUp .colour-button ul a:hover{
+    background-color:none;
+}
+.markItUp .colour-button .col1-1 a{
+    background:#FCE94F;
+}
+.markItUp .colour-button .col1-2 a{
+    background:#EDD400;
+}
+.markItUp .colour-button .col1-3 a{
+    background:#C4A000;
+}
+.markItUp .colour-button .col2-1 a{
+    background:#FCAF3E;
+}
+.markItUp .colour-button .col2-2 a{
+    background:#F57900;
+}
+.markItUp .colour-button .col2-3 a{
+    background:#CE5C00;
+}
+.markItUp .colour-button .col3-1 a{
+    background:#E9B96E;
+}
+.markItUp .colour-button .col3-2 a{
+    background:#C17D11;
+}
+.markItUp .colour-button .col3-3 a{
+    background:#8F5902;
+}
+.markItUp .colour-button .col4-1 a{
+    background:#8AE234;
+}
+.markItUp .colour-button .col4-2 a{
+    background:#73D216;
+}
+.markItUp .colour-button .col4-3 a{
+    background:#4E9A06;
+}
+.markItUp .colour-button .col5-1 a{
+    background:#729FCF;
+}
+.markItUp .colour-button .col5-2 a{
+    background:#3465A4;
+}
+.markItUp .colour-button .col5-3 a{
+    background:#204A87;
+}
+.markItUp .colour-button .col6-1 a{
+    background:#AD7FA8;
+}
+.markItUp .colour-button .col6-2 a{
+    background:#75507B;
+}
+.markItUp .colour-button .col6-3 a{
+    background:#5C3566;
+}
+.markItUp .colour-button .col7-1 a{
+    background:#EF2929;
+}
+.markItUp .colour-button .col7-2 a{
+    background:#CC0000;
+}
+.markItUp .colour-button .col7-3 a{
+    background:#A40000;
+}
+.markItUp .colour-button .col8-1 a{
+    background:#FFFFFF;
+}
+.markItUp .colour-button .col8-2 a{
+    background:#D3D7CF;
+}
+.markItUp .colour-button .col8-3 a{
+    background:#BABDB6;
+}
+.markItUp .colour-button .col9-1 a{
+    background:#888A85;
+}
+.markItUp .colour-button .col9-2 a{
+    background:#555753;
+}
+.markItUp .colour-button .col9-3 a{
+    background:#000000;
+}
+
+
+.markItUp .glow-button ul{
+    width:81px;
+    padding:1px;
+}
+.markItUp .glow-button li{
+    border:1px solid white;
+    width:25px;
+    height:25px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    float:left;
+}
+.markItUp .glow-button ul a{
+    width:25px;
+    height:25px;
+}
+.markItUp .glow-button ul a:hover{
+    background-color:none;
+}
+.markItUp .glow-button .col1-1 a{
+    background:#FCE94F;
+}
+.markItUp .glow-button .col1-2 a{
+    background:#EDD400;
+}
+.markItUp .glow-button .col1-3 a{
+    background:#C4A000;
+}
+.markItUp .glow-button .col2-1 a{
+    background:#FCAF3E;
+}
+.markItUp .glow-button .col2-2 a{
+    background:#F57900;
+}
+.markItUp .glow-button .col2-3 a{
+    background:#CE5C00;
+}
+.markItUp .glow-button .col3-1 a{
+    background:#E9B96E;
+}
+.markItUp .glow-button .col3-2 a{
+    background:#C17D11;
+}
+.markItUp .glow-button .col3-3 a{
+    background:#8F5902;
+}
+.markItUp .glow-button .col4-1 a{
+    background:#8AE234;
+}
+.markItUp .glow-button .col4-2 a{
+    background:#73D216;
+}
+.markItUp .glow-button .col4-3 a{
+    background:#4E9A06;
+}
+.markItUp .glow-button .col5-1 a{
+    background:#729FCF;
+}
+.markItUp .glow-button .col5-2 a{
+    background:#3465A4;
+}
+.markItUp .glow-button .col5-3 a{
+    background:#204A87;
+}
+.markItUp .glow-button .col6-1 a{
+    background:#AD7FA8;
+}
+.markItUp .glow-button .col6-2 a{
+    background:#75507B;
+}
+.markItUp .glow-button .col6-3 a{
+    background:#5C3566;
+}
+.markItUp .glow-button .col7-1 a{
+    background:#EF2929;
+}
+.markItUp .glow-button .col7-2 a{
+    background:#CC0000;
+}
+.markItUp .glow-button .col7-3 a{
+    background:#A40000;
+}
+.markItUp .glow-button .col8-1 a{
+    background:#FFFFFF;
+}
+.markItUp .glow-button .col8-2 a{
+    background:#D3D7CF;
+}
+.markItUp .glow-button .col8-3 a{
+    background:#BABDB6;
+}
+.markItUp .glow-button .col9-1 a{
+    background:#888A85;
+}
+.markItUp .glow-button .col9-2 a{
+    background:#555753;
+}
+.markItUp .glow-button .col9-3 a{
+    background:#000000;
+}
+
+
+.markItUp .highlight-button ul{
+    width:81px;
+    padding:1px;
+}
+.markItUp .highlight-button li{
+    border:1px solid white;
+    width:25px;
+    height:25px;
+    overflow:hidden;
+    padding:0px;
+    margin:0px;
+    float:left;
+}
+.markItUp .highlight-button ul a{
+    width:25px;
+    height:25px;
+}
+.markItUp .highlight-button ul a:hover{
+    background-color:none;
+}
+.markItUp .highlight-button .col1-1 a{
+    background:#FCE94F;
+}
+.markItUp .highlight-button .col1-2 a{
+    background:#EDD400;
+}
+.markItUp .highlight-button .col1-3 a{
+    background:#C4A000;
+}
+.markItUp .highlight-button .col2-1 a{
+    background:#FCAF3E;
+}
+.markItUp .highlight-button .col2-2 a{
+    background:#F57900;
+}
+.markItUp .highlight-button .col2-3 a{
+    background:#CE5C00;
+}
+.markItUp .highlight-button .col3-1 a{
+    background:#E9B96E;
+}
+.markItUp .highlight-button .col3-2 a{
+    background:#C17D11;
+}
+.markItUp .highlight-button .col3-3 a{
+    background:#8F5902;
+}
+.markItUp .highlight-button .col4-1 a{
+    background:#8AE234;
+}
+.markItUp .highlight-button .col4-2 a{
+    background:#73D216;
+}
+.markItUp .highlight-button .col4-3 a{
+    background:#4E9A06;
+}
+.markItUp .highlight-button .col5-1 a{
+    background:#729FCF;
+}
+.markItUp .highlight-button .col5-2 a{
+    background:#3465A4;
+}
+.markItUp .highlight-button .col5-3 a{
+    background:#204A87;
+}
+.markItUp .highlight-button .col6-1 a{
+    background:#AD7FA8;
+}
+.markItUp .highlight-button .col6-2 a{
+    background:#75507B;
+}
+.markItUp .highlight-button .col6-3 a{
+    background:#5C3566;
+}
+.markItUp .highlight-button .col7-1 a{
+    background:#EF2929;
+}
+.markItUp .highlight-button .col7-2 a{
+    background:#CC0000;
+}
+.markItUp .highlight-button .col7-3 a{
+    background:#A40000;
+}
+.markItUp .highlight-button .col8-1 a{
+    background:#FFFFFF;
+}
+.markItUp .highlight-button .col8-2 a{
+    background:#D3D7CF;
+}
+.markItUp .highlight-button .col8-3 a{
+    background:#BABDB6;
+}
+.markItUp .highlight-button .col9-1 a{
+    background:#888A85;
+}
+.markItUp .highlight-button .col9-2 a{
+    background:#555753;
+}
+.markItUp .highlight-button .col9-3 a{
+    background:#000000;
+}
+
+
+.markItUp .rule-button a      {
+        background-image:url(images/hr.png);
+}
+.markItUp .line-break-button a      {
+        background-image:url(images/enter.png);
+}
+
+.markItUp .picture-button a	{
+	background-image:url(images/picture.png);
+}
+.markItUp .video-button a    {
+        background-image:url(images/video.png);
+}
+.markItUp .link-button a	{
+	background-image:url(images/link.png);
+}
+.markItUp .link-to-button a        {
+        background-image:url(images/link.png);
+}
+.markItUp .email-button a        {
+        background-image:url(images/email.png);
+}
+.markItUp .wiki-button a        {
+        background-image:url(images/book_edit.png);
+}
+
+.markItUp .size-button a	{
+	background-image:url(images/fonts.png);
+}
+.markItUp .font-larger-button a        {
+        background-image:url(images/font_larger.png);
+}
+.markItUp .font-smaller-button a        {
+        background-image:url(images/font_smaller.png);
+}
+
+.markItUp .bullet-button a	{
+	background-image:url(images/list-bullet.png);
+}
+.markItUp .numeric-button a	{
+	background-image:url(images/list-numeric.png);
+}
+.markItUp .list-item-button a	{
+	background-image:url(images/list-item.png);
+}
+
+.markItUp .columns-button a     {
+        background-image:url(images/columns.png);
+}
+.markItUp .next-column-button a   {
+        background-image:url(images/nextcol.png);
+}
+
+.markItUp .spoiler-button a      {
+        background-image:url(images/spoilernew.png);
+}
+.markItUp .acronym-button a      {
+        background-image:url(images/acronym.png);
+}
+.markItUp .quote-button a	{
+	background-image:url(images/quotes.png);
+}
+.markItUp .smiles-button a   {
+        background-image:url(/static/smileys/smile.gif);
+}
+.markItUp .smiles-button .row1 a   {
+        background-image:url(/static/smileys/angry.gif);
+}
+
+.markItUp .smiles-button .row2 a   {
+        background-image:url(/static/smileys/anime.gif);
+}
+
+.markItUp .smiles-button .row3 a   {
+        background-image:url(/static/smileys/bigeyes.gif);
+}
+
+.markItUp .smiles-button .row4 a   {
+        background-image:url(/static/smileys/bigsmile.gif);
+}
+
+.markItUp .smiles-button .row5 a   {
+        background-image:url(/static/smileys/bigwink.gif);
+}
+
+.markItUp .smiles-button .row6 a   {
+        background-image:url(/static/smileys/blue.gif);
+}
+
+.markItUp .smiles-button .row7 a   {
+        background-image:url(/static/smileys/boggle.gif);
+}
+
+.markItUp .smiles-button .row8 a   {
+        background-image:url(/static/smileys/confuse.gif);
+}
+
+.markItUp .smiles-button .row9 a   {
+        background-image:url(/static/smileys/cool.gif);
+}
+
+.markItUp .smiles-button .row10 a   {
+        background-image:url(/static/smileys/evil.gif);
+}
+
+.markItUp .smiles-button .row11 a   {
+        background-image:url(/static/smileys/frown.gif);
+}
+
+.markItUp .smiles-button .row12 a   {
+        background-image:url(/static/smileys/heart.gif);
+}
+
+.markItUp .smiles-button .row13 a   {
+        background-image:url(/static/smileys/irritated.gif);
+}
+
+.markItUp .smiles-button .row14 a   {
+        background-image:url(/static/smileys/laugh.gif);
+}
+
+.markItUp .smiles-button .row15 a   {
+        background-image:url(/static/smileys/lookleft.gif);
+}
+
+.markItUp .smiles-button .row16 a   {
+        background-image:url(/static/smileys/lookright.gif);
+}
+
+.markItUp .smiles-button .row17 a   {
+        background-image:url(/static/smileys/neutral.gif);
+}
+
+.markItUp .smiles-button .row18 a   {
+        background-image:url(/static/smileys/saint.gif);
+}
+
+
+.markItUp .smiles-button .row19 a   {
+        background-image:url(/static/smileys/sleepy.gif);
+}
+
+.markItUp .smiles-button .row20 a   {
+        background-image:url(/static/smileys/smile.gif);
+}
+
+.markItUp .smiles-button .row21 a   {
+        background-image:url(/static/smileys/smile3.gif);
+}
+
+.markItUp .smiles-button .row22 a   {
+        background-image:url(/static/smileys/sneaky.gif);
+}
+
+.markItUp .smiles-button .row23 a   {
+        background-image:url(/static/smileys/star.gif);
+}
+
+.markItUp .smiles-button .row24 a   {
+        background-image:url(/static/smileys/surprise.gif);
+}
+
+.markItUp .smiles-button .row25 a   {
+        background-image:url(/static/smileys/sweatdrop.gif);
+}
+
+.markItUp .smiles-button .row26 a   {
+        background-image:url(/static/smileys/teeth.gif);
+}
+
+.markItUp .smiles-button .row27 a   {
+        background-image:url(/static/smileys/tongue.gif);
+}
+
+.markItUp .smiles-button .row28 a   {
+        background-image:url(/static/smileys/wink.gif);
+}
+
+.markItUp .smiles-button .row29 a   {
+        background-image:url(/static/smileys/wink3.gif);
+}
+
+.markItUp .smiles-button .row30 a   {
+        background-image:url(/static/smileys/worry.gif);
+}
+
+
+.markItUp .centre-button a   {
+        background-image:url(images/centre.png);
+}
+.markItUp .left-button a   {
+        background-image:url(images/left.png);
+}
+.markItUp .right-button a   {
+        background-image:url(images/right.png);
+}
+.markItUp .indent-button a   {
+        background-image:url(images/indent.png);
+}
+
+.markItUp .code-button a	{
+	background-image:url(images/code.png);
+}
+	
+.markItUp .clean a {
+	background-image:url(images/clean.png);
+}
+.markItUp .preview a {
+	background-image:url(images/preview.png);
+}
+/* scratchblocks */
+.markItUp .scratchblocks-button > a {
+    background-image: url(images/block.png);
+}
+.markItUp .scratchblocks-button ul li {
+    background-color: transparent;
+    position: static;
+}
+.markItUp .scratchblocks-button ul a {
+    padding: 2px 5px;
+    height: auto;
+}
+.markItUp .scratchblocks-button ul ul {
+    width: 240px;
+    z-index: 100;
+    margin-left: -4px;
+    height: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.markItUp .scratchblocks-button ul ul a {
+    width: 228px;
+    color: #fff;
+}
+.markItUpHeader ul ul ul {
+    left: 100%;
+}
+/* menu workaround */
+.markItUpHeader ul .markItUpDropMenu ul {
+	z-index: 9999;
+}
