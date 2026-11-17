@@ -205,9 +205,10 @@ fBrJoJoZGsMjGMo();
 //-->
 </script>, IRC Name: Mr_Man_The_Man_2</li>
                                                                                     <li><a href="/user/mil3zz">mil3zz</a> (Admin; Developer)</li>
+                                                                                    <li><a href="/user/Heathercat123">Heathercat123</a> (Admin; Developer)</li>
                                                                                     <li><a href="/user/Wrapper Tube">Wrapper Tube</a> (Admin)</li>
-                                                                                    <li><a href="/user/PiscesLovezSprunki">PiscesLovezSprunki</a> (Admin)</li>
-                                                                                    <li><a href="/user/GGoobyJohnbrit">GGoobyJohnbrit</a> (Admin)</li>
+                                                                                    <li><a href="/user/PiscesLovezSprunki">PiscesLovezSprunki</a> (Junior Admin)</li>
+                                                                                    <li><a href="/user/GGoobyJohnbrit">GGoobyJohnbrit</a> (Junior Admin)</li>
                                                                                     <li><a href="/user/AveragePCgamer">AveragePCgamer</a> (Moderator)</li>
                                                                                     <li><a href="/user/elmofx09">elmofx09</a> (Moderator)</li>
                                                                                 </ul><br><br>
