@@ -14,10 +14,10 @@
         ],
 
         "db_properties" => (object) [ //configure this to your db settings.
-            "db_user" => "rickastley",
-            "db_password" => "meow",
+            "db_user" => "changeme",
+            "db_password" => "changeme",
             "db_host" => "localhost",
-            "db_database" => "wrappertube",
+            "db_database" => "changeme",
             "db_connected" => false,
         ], 
 
