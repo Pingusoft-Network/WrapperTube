@@ -475,6 +475,8 @@
             <div class="www-home-right">
                 <?php 
                     $_featured_vid = $_video_fetch_utils->fetch_rand_featured_vid();
+
+                    if ($_featured_vid):
                 ?>
                 <?php 
                     $_featured_vid['stars'] = $_video_fetch_utils->get_video_stars($_featured_vid['rid']);
@@ -569,6 +571,7 @@
 } $stmt->close();
 ?>
                 </div><br>
+                <?php endif; ?>
                 <div class="channel-latest-stats">
                     <h3><a href="/community?c=Featured">Featured Groups</a></h3>
                     <?php
@@ -672,11 +675,14 @@ while($row = $result->fetch_assoc()) {
     $latest_user = $row['username'];
 }
 $stmt->close();
+
+if (isset($latest_user)):
 ?>
                 <div class="channel-latest-stats">
                     <h3><a href="/t/statistics">Statictics</a></h3>
                     There are <?php echo $videos; ?> videos created by our <?php echo $users; ?> registered members, and our newest member is <a href="/user/<?php echo htmlspecialchars($latest_user); ?>"><?php echo htmlspecialchars($latest_user); ?></a>. That's a lot of Wrapp-ing!
                 </div>
+<?php endif; ?>
             </div>
         </div>
         <div class="www-core-container">

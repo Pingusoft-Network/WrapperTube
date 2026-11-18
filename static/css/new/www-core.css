@@ -3,6 +3,7 @@ body {
   font-size: 12px;
   width: 970px;
   margin: 8px auto;
+  background-color: #FFF; /* Dark mode browser fix */
   }
   
   a {

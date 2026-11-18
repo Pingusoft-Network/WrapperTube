@@ -4,9 +4,9 @@ $post = array(); // used for handling post inputs, put sanitized inputs into her
 
 //configure this to your db settings.
 $config['db_host'] = "localhost";
-$config['db_user'] = "changeme";
-$config['db_pass'] = "changeme";
-$config['db_name'] = "changeme";
+$config['db_user'] = "rickastley";
+$config['db_pass'] = "meow";
+$config['db_name'] = "wrappertube";
 $config['db_connected'] = false;
 
 $config["featured_channels"] = array(); //insert featured channels here
@@ -58,7 +58,7 @@ if (!isset($__db)) {
     }
     $stmt = null;
 
-if (!$ban_info) {
+if (!isset($ban_info)) {
     /* NORMAL BANS */
 if(!isset($_SESSION['adminlogin'])) {
     $stmt = $__db->prepare("SELECT * FROM bans WHERE username = :username LIMIT 1");
