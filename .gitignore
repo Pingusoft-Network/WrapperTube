@@ -1,9 +1,15 @@
 # Sessions
 sessions/
 
+# User uploaded stuff
+dynamic/
+
 # Local config
 # TODO: They contain non-local things too
 s/classes/config.inc.php
 static/important/config.inc.php
 d/signup.php
 email.php
+
+# Templates
+get-started/
