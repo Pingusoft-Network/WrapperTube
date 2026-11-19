@@ -67,7 +67,7 @@
     }
     $stmt = null;
 
-if (!$ban_info) {
+if (!isset($ban_info)) {
     /* NORMAL BANS */
 if(!isset($_SESSION['adminlogin'])) {
     $stmt = $__db->prepare("SELECT * FROM bans WHERE username = :username LIMIT 1");
