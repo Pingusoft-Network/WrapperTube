@@ -8,6 +8,9 @@ dynamic/
 # TODO: They contain non-local things too
 s/classes/config.inc.php
 static/important/config.inc.php
+static/important/sitewide.txt
+static/important/lockdown_mode.txt
+static/important/signups_disabled.txt
 d/signup.php
 email.php
 
