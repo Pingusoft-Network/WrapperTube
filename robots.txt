@@ -210,5 +210,3 @@ Disallow: /music_editor
 
 # Sitemap
 Sitemap: http://wrappertube.org/sitemap.xml
-
-# that's it
