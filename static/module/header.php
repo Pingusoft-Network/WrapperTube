@@ -3,7 +3,7 @@
                 die("<a href='/logout'>Your user has been deleted. Logout</a>");
         }
 ?>
-<link rel="stylesheet" href="/static/css/links.css">
+<link rel="stylesheet" href="/static/css/links.css?v2">
 <div class="www-header-mast">
     <a href="/"><img src="/yt/imgbin/full-size-logo.png" class="www-logo"></a>
     <span class="www-motto">
@@ -58,7 +58,8 @@ function googleTranslateElementInit() {
         <a class="www-header-item" href="/scratch_editor">Scratch Editor</a>
         <a class="www-header-item" href="/paint_editor">Paint</a>
         <a class="www-header-item" href="/community">Community</a>
-        <span class="music-editor-link"><a class="www-header-item" href="/music_editor">Music Editor</a></span>
+		<!--Honeypot for bots that intentionally ignore robots.txt. Only dumb bots follow this link. WARNING: Do not go to this link. It will automatically ban your IP for 48 hours.-->
+        <span class="music-editor-link"><a class="www-header-item" href="/music_editor" tabindex="-1" aria-hidden="true">Music Editor</a></span>
 
         <form class="search-form" autocomplete="off" action="/search_query" style="margin-left:40px;">
             <input name="q" class="search-box" style="width:225px;"<?php if ($_SERVER['SCRIPT_NAME'] == "/search_query.php") { ?> value="<?php echo htmlspecialchars($_GET['q']); ?>"<?php } ?>>

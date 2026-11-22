@@ -4,6 +4,7 @@ body {
   width: 970px;
   margin: 8px auto;
   background-color: #FFF; /* Dark mode browser fix */
+  color: #000; /* Dark mode browser fix */
   }
   
   a {

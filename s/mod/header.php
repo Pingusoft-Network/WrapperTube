@@ -21,7 +21,7 @@
 	}
 ?>
 <!-- begin masthead -->
-<link rel="stylesheet" href="/static/css/links.css">
+<link rel="stylesheet" href="/static/css/links.css?v2">
 <div id="masthead" class="" dir="ltr">
 	<a id="logo-container" href="/" title="WrapperTube home">
 	<img id="logo" src="//s.ytimg.com/yt/img/pixel-vfl3z5WfW.gif" alt="WrapperTube home">
@@ -56,7 +56,7 @@
 	<?php } ?>
 	<div id="masthead-search-bar-container">
 		<div id="masthead-search-bar">
-			<div id="masthead-nav"><a href="/videos?feature=mh">Browse</a><span class="masthead-link-separator">|</span><a href="/scratch_editor">Scratch Editor</a><span class="masthead-link-separator">|</span><a href="/paint_editor">Paint</a><span class="masthead-link-separator">|</span><a href="/community">Community</a><span class="masthead-link-separator">|</span><a id="masthead-upload-link" class="" data-upsell="upload" href="/upload_video">Upload</a><span class="music-editor-link"><span class="masthead-link-separator">|</span><a href="/music_editor">Music Editor</a></span></div>
+			<div id="masthead-nav"><a href="/videos?feature=mh">Browse</a><span class="masthead-link-separator">|</span><a href="/scratch_editor">Scratch Editor</a><span class="masthead-link-separator">|</span><a href="/paint_editor">Paint</a><span class="masthead-link-separator">|</span><a href="/community">Community</a><span class="masthead-link-separator">|</span><a id="masthead-upload-link" class="" data-upsell="upload" href="/upload_video">Upload</a><!--Honeypot for bots that intentionally ignore robots.txt. Only dumb bots follow this link. WARNING: Do not go to this link. It will automatically ban your IP for 48 hours.--><span class="music-editor-link"><span class="masthead-link-separator">|</span><a href="/music_editor" tabindex="-1" aria-hidden="true">Music Editor</a></span></div>
 			<form id="masthead-search" class="search-form consolidated-form" action="/search_query" onsubmit="if (_gel('masthead-search-term').value == '') return false;">
 				<button class="search-btn-compontent search-button yt-uix-button yt-uix-button-default" onclick="if (_gel('masthead-search-term').value == '') return false; _gel('masthead-search').submit(); return false;;return true;" type="submit" id="search-btn" dir="ltr" tabindex="2" role="button"><span class="yt-uix-button-content">Search </span></button>
 				<div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><label><input id="masthead-search-term" autocomplete="off" class="search-term" name="q" value="" type="text" tabindex="1" onkeyup="goog.i18n.bidi.setDirAttribute(event,this)" title="Search"></label></div>

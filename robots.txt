@@ -202,7 +202,7 @@ Disallow: /forum/search
 Disallow: /report
 Disallow: /report_forum_reply
 Disallow: /report_forum_thread
-# Only 0 IQ bots follow these links.
+# Honeypot for bots that intentionally ignore robots.txt. Only dumb bots follow these links. WARNING: Do not go to these links. It will automatically ban your IP for 48 hours.
 Disallow: /community?c=noonpoop
 Disallow: /watch?v=VQUfJDxJr-G&small_p=1
 Disallow: /t/abouta

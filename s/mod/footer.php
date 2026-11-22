@@ -18,7 +18,8 @@
             <li><a href="/comments">Comments</a></li>
             <li><a href="/t/community_guidelines">Guidelines</a></li>
             <li><a href="/ban_list">Ban List</a></li>
-            <li><div class="demo-video-container"><a href="/watch?v=VQUfJDxJr-G&small_p=1">WrapperTube Demo</a></div></li>
+			<!--Honeypot for bots that intentionally ignore robots.txt. Only dumb bots follow this link. WARNING: Do not go to this link. It will automatically ban your IP for 48 hours.-->
+            <li><div class="demo-video-container"><a href="/watch?v=VQUfJDxJr-G&small_p=1" tabindex="-1" aria-hidden="true">WrapperTube Demo</a></div></li>
         </ul>
         <ul id="footer-links-secondary">
             <li><a href="/switer/">Switer</a></li>
@@ -30,7 +31,8 @@
             <li><a href="http://www.newart.ru/" target="_blank">Newart.ru</a></li>
             <li><a href="//scr.chipmunk.land/" target="_blank">Chipmunk Land</a></li>
             <li><a href="https://cytu.be/r/WrapperTube" target="_blank">WrapperTube Cytube</a></li>
-            <li><span class="about-a-link"><a href="/t/abouta">About a</a></span></li>
+			<!--Honeypot for bots that intentionally ignore robots.txt. Only dumb bots follow this link. WARNING: Do not go to this link. It will automatically ban your IP for 48 hours.-->
+            <li><span class="about-a-link"><a href="/t/abouta" tabindex="-1" aria-hidden="true">About a</a></span></li>
         </ul>
         <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
             <li>
@@ -65,6 +67,7 @@
     </div>
 </div>
 <script type="ignore">
+Honeypot for bots that intentionally ignore robots.txt. Only dumb bots follow this link. WARNING: Do not go to this link. It will automatically ban your IP for 48 hours.
   <a
     href="/community?c=noonpoop"
   >

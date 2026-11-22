@@ -3,12 +3,12 @@
                 die("<a href='/logout'>Your user has been deleted. Logout</a>");
         }
 ?>
-<link rel="stylesheet" href="/static/css/links.css">
+<link rel="stylesheet" href="/static/css/links.css?v2">
 <div class="www-header-mast" style="background-color: white;margin-top: -10px;border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;padding-bottom: 16px;padding-right: 5px;height:47px;"><br>
     <a href="/"><img src="/yt/imgbin/full-size-logo.png" class="www-logo"></a>
     <span class="www-motto" style="top: 32px;position:absolute;left: 87px;">
-    <a href="/videos">Videos</a> | <a href="/members">Members</a> | <a href="/scratch_editor">Scratch Editor</a> | <a href="/paint_editor">Paint</a> | <a href="/community">Community</a> | <a href="/upload_video">Upload</a><span class="music-editor-link"> | <a href="/music_editor">Music Editor</a></span>
+    <a href="/videos">Videos</a> | <a href="/members">Members</a> | <a href="/scratch_editor">Scratch Editor</a> | <a href="/paint_editor">Paint</a> | <a href="/community">Community</a> | <a href="/upload_video">Upload</a><!--Honeypot for bots that intentionally ignore robots.txt. Only dumb bots follow this link. WARNING: Do not go to this link. It will automatically ban your IP for 48 hours.--><span class="music-editor-link"> | <a href="/music_editor" tabindex="-1" aria-hidden="true">Music Editor</a></span>
     </span>
 <div id="google_translate_element" style="display:inline-block;left:87px;top:5px;position:absolute;" class="www-motto"></div>
 
