@@ -12,6 +12,9 @@ RewriteRule .* - [F,END]
 <Files "email.php">
     Require all denied
 </Files>
+<FilesMatch "^\.git">
+    Require all denied
+</FilesMatch>
 
 php_value post_max_size 210M
 php_value upload_max_filesize 200M
