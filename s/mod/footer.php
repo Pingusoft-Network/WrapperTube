@@ -32,7 +32,7 @@
             <li><a href="//scr.chipmunk.land/" target="_blank">Chipmunk Land</a></li>
             <li><a href="https://cytu.be/r/WrapperTube" target="_blank">WrapperTube Cytube</a></li>
 			<!--Honeypot for bots that intentionally ignore robots.txt. Only dumb bots follow this link. WARNING: Do not go to this link. It will automatically ban your IP for 48 hours.-->
-            <li><span class="about-a-link"><a href="/t/abouta" tabindex="-1" aria-hidden="true">About a</a></span></li>
+            <li><a href="/t/abouta" class="about-a-link" tabindex="-1" aria-hidden="true">About a</a></li>
         </ul>
         <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
             <li>
